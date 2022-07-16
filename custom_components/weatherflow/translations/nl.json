@@ -1,13 +1,13 @@
 {
     "config": {
         "abort": {
-            "unique_id": "WeatherFlow station is reeds geconfigured."
+            "unique_id": "WeatherFlow station is reeds geconfigureerd."
         },
         "error": {
-            "wrong_station_id": "De Station Id is niet juist.",
+            "wrong_station_id": "Het Station Id is niet juist.",
             "invalid_data": "De gegevens afkomstig van WeatherFlow zijn ongeldig.",
             "wrong_token": "Het Api Token is niet juist.",
-            "bad_request": "Een onbekende fout in opgetreden tijdens het ophalen van de gegevens."
+            "bad_request": "Een onbekende fout is opgetreden tijdens het ophalen van de gegevens."
         },
         "step": {
             "user": {
@@ -25,7 +25,7 @@
             "init": {
                 "data": {
                     "interval_observation": "Interval in minuten tussen sensor updates (Standaard 2 min)",
-                    "forecast_hours": "Number of hours for the Hour based forecast (Default 48 hours)",
+                    "forecast_hours": "Aantal uren voor de uurlijkse voorspelling (Standaard 48 huren)",
                     "interval_forecast": "Interval in minuten tussen de weersvoorspelling updates (Standaard 30 min)"
                 }
             }
